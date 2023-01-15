@@ -109,7 +109,7 @@ namespace Rehub_API.Controllers
         }
         #endregion
 
-        #region Update Company
+        #region Update Company --
 
         [ApiExplorerSettings(IgnoreApi = false)]
         [HttpPost, Route("UpdateCompany")]
