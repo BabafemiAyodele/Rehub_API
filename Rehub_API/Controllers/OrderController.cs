@@ -275,7 +275,7 @@ namespace Rehub_API.Controllers
                     {
                         PriceData = new SessionLineItemPriceDataOptions
                         {
-                            UnitAmount = (long)(item.Price * 100), //20.00 => 2000
+                            UnitAmount = (long)(item.Price * 100), //20.00 ==> 2000
                             Currency = "usd",
                             ProductData = new SessionLineItemPriceDataProductDataOptions
                             {
