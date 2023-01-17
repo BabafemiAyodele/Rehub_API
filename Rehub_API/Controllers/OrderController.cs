@@ -7,7 +7,7 @@ using Rehub.Utility;
 using Stripe;
 using Stripe.Checkout;
 using System.Security.Claims;
-//testing
+//testing protected branch
 namespace Rehub_API.Controllers
 {
     [Route("api/[controller]")]
